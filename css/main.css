@@ -7769,3 +7769,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .copyright {
   font-size: 0.75em; }
+
+span.icon {
+  margin: 0 7px 0 7px; }
