@@ -7766,3 +7766,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain; }
+
+.copyright {
+  font-size: 0.75em; }
