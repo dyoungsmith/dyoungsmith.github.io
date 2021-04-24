@@ -7761,11 +7761,17 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 #logo {
   padding-left: 50px; }
 
-.section-image div {
+.section-image.top div {
   height: 400px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain; }
+
+.section-image div {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
 
 .copyright {
   font-size: 0.75em; }

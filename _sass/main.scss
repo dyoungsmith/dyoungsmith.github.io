@@ -26,11 +26,18 @@ $primary-invert: $purple-invert;
     padding-left: 50px;
 }
 
-.section-image div {
+.section-image.top div {
     height: 400px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
+}
+
+.section-image div {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .copyright {
