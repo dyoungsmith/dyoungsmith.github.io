@@ -30,6 +30,18 @@ $primary-invert: $purple-invert;
     max-height: 2.5rem;
 }
 
+.primary-text {
+    color: $primary;
+
+    strong {
+        color: $primary;
+    }
+}
+
+.centered-text {
+    text-align: center;
+}
+
 .section-image.top div {
     height: 400px;
     background-repeat: no-repeat;
