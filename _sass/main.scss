@@ -26,6 +26,10 @@ $primary-invert: $purple-invert;
     padding-left: 50px;
 }
 
+.navbar-item img {
+    max-height: 2.5rem;
+}
+
 .section-image.top div {
     height: 400px;
     background-repeat: no-repeat;
