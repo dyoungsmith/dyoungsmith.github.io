@@ -23,7 +23,7 @@ $primary-invert: $purple-invert;
 @import "../node_modules/bulma/bulma";
 
 #logo {
-    padding-left: 50px;
+    padding-left: 1em;
 }
 
 .navbar-item img {
@@ -44,10 +44,14 @@ $primary-invert: $purple-invert;
     background-size: cover;
 }
 
-.copyright {
-    font-size: 0.75em;
+.button.is-medium {
+    font-size: 1rem;
 }
 
 span.icon {
     margin: 0 7px 0 7px;
+}
+
+.copyright {
+    font-size: 0.75em;
 }
