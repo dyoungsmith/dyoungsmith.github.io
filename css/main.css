@@ -7797,6 +7797,9 @@ p {
 p.no-margin-paragraph {
   margin-block-start: 0; }
 
+.hero.is-medium .hero-body.about-section {
+  padding: 9rem 1.5rem 1rem 1.5rem; }
+
 hr {
   margin: 1.5rem 4rem; }
 
