@@ -7772,6 +7772,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .centered-text {
   text-align: center; }
 
+.right-align {
+  text-align: end; }
+
 .section-image.top div {
   height: 400px;
   background-repeat: no-repeat;
@@ -7786,6 +7789,28 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .button.is-medium {
   font-size: 1rem; }
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em; }
+
+p.no-margin-paragraph {
+  margin-block-start: 0; }
+
+hr {
+  margin: 1.5rem 4rem; }
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px; }
+
+li {
+  margin: 9px 0; }
 
 span.icon {
   margin: 0 7px 0 7px; }
