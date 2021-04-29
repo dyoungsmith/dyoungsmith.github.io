@@ -38,20 +38,16 @@ $primary-invert: $purple-invert;
     }
 }
 
-.centered-text {
-    text-align: center;
-}
-
 .center-align {
     text-align: center;
 }
 
-// .section-image.top div {
-//     height: 400px;
-//     background-repeat: no-repeat;
-//     background-attachment: fixed;
-//     background-size: contain;
-// }
+.section-image.top div {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
 
 .section-image div {
     height: 400px;
@@ -75,6 +71,14 @@ p.no-margin-paragraph {
 
 .hero.is-medium .hero-body.about-section {
     padding: 9rem 1.5rem 1rem 1.5rem;
+}
+
+.hero.is-primary .tile .title {
+    color: $primary;
+}
+
+.hero.is-primary .tile .subtitle {
+    color: $primary;
 }
 
 hr {
