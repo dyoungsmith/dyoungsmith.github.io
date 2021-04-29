@@ -7772,14 +7772,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .centered-text {
   text-align: center; }
 
-.right-align {
-  text-align: end; }
-
-.section-image.top div {
-  height: 400px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: contain; }
+.center-align {
+  text-align: center; }
 
 .section-image div {
   height: 400px;
@@ -7820,3 +7814,7 @@ span.icon {
 
 .copyright {
   font-size: 0.75em; }
+
+.footer {
+  background-color: #fafafa;
+  padding: 3rem 1.5rem 2rem; }
