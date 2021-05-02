@@ -7764,11 +7764,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .navbar-item img {
   max-height: 2.5rem; }
 
-.primary-text {
-  color: #40308f; }
-  .primary-text strong {
-    color: #40308f; }
-
 .center-align {
   text-align: center; }
 
@@ -7796,12 +7791,6 @@ p.no-margin-paragraph {
 
 .hero.is-medium .hero-body.about-section {
   padding: 9rem 1.5rem 1rem 1.5rem; }
-
-.hero.is-primary .tile .title {
-  color: #40308f; }
-
-.hero.is-primary .tile .subtitle {
-  color: #40308f; }
 
 .tile img {
   border-radius: 6px; }

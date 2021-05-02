@@ -30,14 +30,6 @@ $primary-invert: $purple-invert;
     max-height: 2.5rem;
 }
 
-.primary-text {
-    color: $primary;
-
-    strong {
-        color: $primary;
-    }
-}
-
 .center-align {
     text-align: center;
 }
@@ -71,14 +63,6 @@ p.no-margin-paragraph {
 
 .hero.is-medium .hero-body.about-section {
     padding: 9rem 1.5rem 1rem 1.5rem;
-}
-
-.hero.is-primary .tile .title {
-    color: $primary;
-}
-
-.hero.is-primary .tile .subtitle {
-    color: $primary;
 }
 
 .tile img {
