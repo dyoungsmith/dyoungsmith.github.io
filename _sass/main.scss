@@ -22,10 +22,6 @@ $primary-invert: $purple-invert;
 // 4. Import the rest of Bulma
 @import "../node_modules/bulma/bulma";
 
-#logo {
-    padding-left: 1em;
-}
-
 .navbar-item img {
     max-height: 2.5rem;
 }
