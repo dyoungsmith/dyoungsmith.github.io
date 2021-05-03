@@ -41,7 +41,7 @@ $primary-invert: $purple-invert;
     height: 400px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 
 .button.is-medium {

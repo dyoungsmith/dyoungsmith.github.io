@@ -7774,7 +7774,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   height: 400px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: contain; }
 
 .button.is-medium {
   font-size: 1rem; }
