@@ -44,6 +44,18 @@ $primary-invert: $purple-invert;
     background-size: contain;
 }
 
+.hero-body {
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+}
+
+.text-over-image {
+    background: white;
+    opacity: .5;
+    border-radius: 6px;
+}
+
 .button.is-medium {
     font-size: 1rem;
 }
@@ -61,7 +73,7 @@ p.no-margin-paragraph {
     padding: 9rem 1.5rem 1rem 1.5rem;
 }
 
-.tile img {
+img {
     border-radius: 6px;
 }
 
