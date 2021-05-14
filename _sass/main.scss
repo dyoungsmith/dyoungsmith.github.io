@@ -31,6 +31,26 @@ a {
     font-family: $family-sans-serif;
 }
 
+.contact-form {
+    font-family: $family-sans-serif;
+    
+    input {
+        font-family: $family-sans-serif;
+    }
+
+    select {
+        font-family: $family-sans-serif;
+    }
+
+    textarea {
+        font-family: $family-sans-serif;
+    }
+}
+
+button {
+    font-family: $family-sans-serif;
+}
+
 .center-align {
     text-align: center;
 }

@@ -7764,6 +7764,18 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 a {
   font-family: "Helvetica", "Arial", sans-serif; }
 
+.contact-form {
+  font-family: "Helvetica", "Arial", sans-serif; }
+  .contact-form input {
+    font-family: "Helvetica", "Arial", sans-serif; }
+  .contact-form select {
+    font-family: "Helvetica", "Arial", sans-serif; }
+  .contact-form textarea {
+    font-family: "Helvetica", "Arial", sans-serif; }
+
+button {
+  font-family: "Helvetica", "Arial", sans-serif; }
+
 .center-align {
   text-align: center; }
 
