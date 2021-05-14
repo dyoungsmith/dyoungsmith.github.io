@@ -13,6 +13,7 @@ $purple-invert: #fff;
 
 // Update the sans-serif font family
 $family-sans-serif: "Helvetica", "Arial", sans-serif;
+$family-primary: Georgia, serif;
 
 // 3. Set the derived variables
 // Use the new purple as the primary color
@@ -24,6 +25,10 @@ $primary-invert: $purple-invert;
 
 .navbar-item img {
     max-height: 2.5rem;
+}
+
+a {
+    font-family: $family-sans-serif;
 }
 
 .center-align {
@@ -63,6 +68,7 @@ $primary-invert: $purple-invert;
 p {
     margin-block-start: 1em;
     margin-block-end: 1em;
+    // font-family: $family-sans-serif;
 }
 
 p.no-margin-paragraph {

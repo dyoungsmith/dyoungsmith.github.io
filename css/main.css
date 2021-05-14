@@ -287,7 +287,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Helvetica", "Arial", sans-serif; }
+  font-family: Georgia, serif; }
 
 code,
 pre {
@@ -6941,7 +6941,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Helvetica", "Arial", sans-serif !important; }
+  font-family: Georgia, serif !important; }
 
 .is-family-secondary {
   font-family: "Helvetica", "Arial", sans-serif !important; }
@@ -7760,6 +7760,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .navbar-item img {
   max-height: 2.5rem; }
+
+a {
+  font-family: "Helvetica", "Arial", sans-serif; }
 
 .center-align {
   text-align: center; }
