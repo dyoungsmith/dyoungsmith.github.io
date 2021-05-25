@@ -75,6 +75,10 @@ button {
     background-attachment: fixed;
 }
 
+.hero-body.hero-with-text {
+    background-size: cover;
+}
+
 .text-over-image {
     background: white;
     opacity: .5;
@@ -88,7 +92,7 @@ button {
 p {
     margin-block-start: 1em;
     margin-block-end: 1em;
-    // font-family: $family-sans-serif;
+    font-family: $family-sans-serif;
 }
 
 p.no-margin-paragraph {
