@@ -38,103 +38,109 @@
       </div>
     </nav>
     <section>
-      <div class="container contact-form">
-        <div class="columns is-centered">
-          <div class="column is-two-thirds p-5 mt-6 mb-5">
-            <div class="field">
-              <label class="label">First Name *</label>
-              <div class="control">
-                <input class="input" type="text">
+      <div class="columns is-centered mt-6 mb-5">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_lmn4vOUhfjDjm2bzlt-YQlzJpxgqsforXi7CepG7VCgLkA/viewform?embedded=true" width="640" height="1150" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+      <!-- <form>
+        <div class="container contact-form">
+          <div class="columns is-centered">
+            <div class="column is-two-thirds p-5 mt-6 mb-5">
+              <div class="field">
+                <label class="label">First Name *</label>
+                <div class="control">
+                  <input id="name-input" name="name-input" class="input" type="text" required>
+                </div>
               </div>
-            </div>
-            
-            <div class="field">
-              <label class="label">Email *</label>
-              <div class="control has-icons-right">
-                <input class="input" type="email">
-                <span class="icon is-small is-right">
-                  <i class="fas fa-envelope"></i>
-                </span>
+              
+              <div class="field">
+                <label class="label">Email *</label>
+                <div class="control has-icons-right">
+                  <input id="email-input" name="email-input" class="input" type="email" required>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
               </div>
-            </div>
-
-            <div class="field">
-              <label class="label">Phone</label>
-              <div class="control has-icons-right">
-                <input class="input" type="email">
-                <span class="icon is-small is-right">
-                  <i class="fas fa-phone"></i>
-                </span>
+  
+              <div class="field">
+                <label class="label">Phone</label>
+                <div class="control has-icons-right">
+                  <input id="phone-input" name="phone-input" class="input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-phone"></i>
+                  </span>
+                </div>
               </div>
-            </div>
-            
-            <div class="field">
-              <label class="label">Subject *</label>
-              <div class="control">
-                <input class="input" type="text">
+              
+              <div class="field">
+                <label class="label">Subject *</label>
+                <div class="control">
+                  <input id="subject-input" name="subject-input" class="input" type="text" required>
+                </div>
               </div>
-            </div>
-
-            <div class="field">
-              <label class="label">I am interested in... *</label>
-              <div class="control">
-                <div class="columns">
-                  <div class="column is-half">
-                    <div class="row">
-                      <label class="checkbox">
-                        <input type="checkbox">
-                        Life Guiding Sessions
-                      </label>
+  
+              <div class="field">
+                <label class="label">I am interested in...</label>
+                <div class="control">
+                  <div class="columns">
+                    <div class="column is-half">
+                      <div class="row">
+                        <label class="checkbox">
+                          <input id="life-guiding-checkbox" name="life-guiding-checkbox" type="checkbox">
+                          Life Guiding Sessions
+                        </label>
+                      </div>
+                      <div class="row">
+                        <label class="checkbox">
+                          <input id="yoga-checkbox" name="yoga-checkbox" type="checkbox">
+                          Yoga Classes
+                        </label>
+                      </div>
                     </div>
-                    <div class="row">
-                      <label class="checkbox">
-                        <input type="checkbox">
-                        Yoga Classes
-                      </label>
-                    </div>
-                  </div>
-                  <div class="column is-half">
-                    <div class="row">
-                      <label class="checkbox">
-                        <input type="checkbox">
-                        Reiki Healing
-                      </label>
-                    </div>
-                    <div class="row">
-                      <label class="checkbox">
-                        <input type="checkbox">
-                        Meditation
-                      </label>
+                    <div class="column is-half">
+                      <div class="row">
+                        <label class="checkbox">
+                          <input id="reiki-checkbox" name="reiki-checkbox" type="checkbox">
+                          Reiki Healing
+                        </label>
+                      </div>
+                      <div class="row">
+                        <label class="checkbox">
+                          <input id="meditation-checkbox" name="meditation-checkbox" type="checkbox">
+                          Meditation
+                        </label>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            
-            <div class="field">
-              <label class="label">Message *</label>
-              <div class="control">
-                <textarea class="textarea" placeholder="Type your message here"></textarea>
+              
+              <div class="field">
+                <label class="label">Message *</label>
+                <div class="control">
+                  <textarea id="message-textarea" class="textarea" placeholder="Type your message here" required></textarea>
+                </div>
               </div>
-            </div>
-            
-            <div class="field">
-              <div class="control">
-                <label class="checkbox">
-                  <input type="checkbox">
-                  I agree to the <a href="#">terms and conditions</a>
-                </label>
+              
+              <div class="field">
+                <div class="control">
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    I agree to the <a href="#">terms and conditions</a>
+                  </label>
+                </div>
               </div>
-            </div>
-            
-            <div class="field is-grouped">
-              <div class="control">
-                <button class="button is-primary" onclick="sendEmail()">Submit</button>
+              
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-primary" onclick="sendEmail()">Submit</button>
+                  <input class="button is-primary-invert" type="submit">
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </form> -->
     </section>
     <footer class="footer has-text-centered">
       <div class="container">
