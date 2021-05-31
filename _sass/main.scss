@@ -6,6 +6,7 @@
 // 2. Set your own initial variables
 // Update the blue shade, used for links
 $blue: #06bcef;
+$green: #76b694;
 
 // Add purple and its invert
 $purple: #40308f;
@@ -19,6 +20,7 @@ $family-primary: Georgia, serif;
 // Use the new purple as the primary color
 $primary: $purple;
 $primary-invert: $purple-invert;
+$link: $green;
 
 // 4. Import the rest of Bulma
 @import "../node_modules/bulma/bulma";
