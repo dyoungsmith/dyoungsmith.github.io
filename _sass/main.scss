@@ -14,7 +14,7 @@ $purple-invert: #fff;
 
 // Update the sans-serif font family
 $family-sans-serif: "Helvetica", "Arial", sans-serif;
-$family-primary: Georgia, serif;
+$family-primary: "Helvetica", "Arial", sans-serif; // CHANGE THIS!!
 
 // 3. Set the derived variables
 // Use the new purple as the primary color
@@ -27,6 +27,10 @@ $link: $green;
 
 .navbar-item img {
     max-height: 2.5rem;
+}
+
+.navbar.is-transparent {
+    background-color: transparent !important;
 }
 
 a {
@@ -101,10 +105,6 @@ p.no-margin-paragraph {
     margin-block-start: 0;
 }
 
-.hero.is-medium .hero-body.about-section {
-    padding: 9rem 1.5rem 1rem 1.5rem;
-}
-
 img {
     border-radius: 6px;
 }
@@ -115,7 +115,7 @@ hr {
 
 ul {
     display: block;
-    list-style-type: disc;
+    // list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
