@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-// 1. Import the initial variables
+// 1. Import the initial variables and libraries
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 @import "../node_modules/animate.css/animate";
 
@@ -14,8 +14,8 @@ $purple: #40308f;
 $purple-invert: #fff;
 
 // Update the sans-serif font family
-$family-sans-serif: "Helvetica", "Arial", sans-serif;
-$family-primary: "Helvetica", "Arial", sans-serif; // CHANGE THIS!!
+$family-sans-serif: "Apercu", "Roboto", sans-serif;
+$family-primary: "Apercu", "Roboto", sans-serif;
 
 // 3. Set the derived variables
 // Use the new purple as the primary color
@@ -38,22 +38,6 @@ a {
     font-family: $family-sans-serif;
 }
 
-.contact-form {
-    font-family: $family-sans-serif;
-    
-    input {
-        font-family: $family-sans-serif;
-    }
-
-    select {
-        font-family: $family-sans-serif;
-    }
-
-    textarea {
-        font-family: $family-sans-serif;
-    }
-}
-
 button {
     font-family: $family-sans-serif;
 }
@@ -62,27 +46,19 @@ button {
     text-align: center;
 }
 
-.section-image.top div {
-    height: 400px;
+#main {
+    background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg");
     background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 
-.section-image div {
-    height: 400px;
+#get-started {
+    background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg");
     background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
-    background-size: contain;
-}
-
-.hero-body {
-    background-size: contain;
-    /* background-repeat: no-repeat; */
-    background-attachment: fixed;
-}
-
-.hero-body.hero-with-text {
     background-size: cover;
 }
 
@@ -152,4 +128,28 @@ span.icon {
 .footer {
     background-color: #fafafa;
     padding: 3rem 1.5rem 2rem;
+}
+
+@media (orientation: portrait) and (min-width: 600px){
+    #main{
+      background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg");
+    }
+}
+  
+@media (orientation: portrait) and (max-width: 600px){
+    #main{
+      background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg");
+    }
+}
+
+@media (orientation: portrait) and (min-width: 600px){
+    #main{
+      background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg);");
+    }
+}
+  
+@media (orientation: portrait) and (max-width: 600px){
+    #main{
+      background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg);");
+    }
 }

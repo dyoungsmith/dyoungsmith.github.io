@@ -3430,7 +3430,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Helvetica", "Arial", sans-serif; }
+  font-family: "Apercu", "Roboto", sans-serif; }
 
 code,
 pre {
@@ -10084,13 +10084,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Apercu", "Roboto", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Apercu", "Roboto", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Apercu", "Roboto", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
@@ -10908,41 +10908,26 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: transparent !important; }
 
 a {
-  font-family: "Helvetica", "Arial", sans-serif; }
-
-.contact-form {
-  font-family: "Helvetica", "Arial", sans-serif; }
-  .contact-form input {
-    font-family: "Helvetica", "Arial", sans-serif; }
-  .contact-form select {
-    font-family: "Helvetica", "Arial", sans-serif; }
-  .contact-form textarea {
-    font-family: "Helvetica", "Arial", sans-serif; }
+  font-family: "Apercu", "Roboto", sans-serif; }
 
 button {
-  font-family: "Helvetica", "Arial", sans-serif; }
+  font-family: "Apercu", "Roboto", sans-serif; }
 
 .center-align {
   text-align: center; }
 
-.section-image.top div {
-  height: 400px;
+#main {
+  background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg");
   background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
-  background-size: contain; }
+  background-size: cover; }
 
-.section-image div {
-  height: 400px;
+#get-started {
+  background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg");
   background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
-  background-size: contain; }
-
-.hero-body {
-  background-size: contain;
-  /* background-repeat: no-repeat; */
-  background-attachment: fixed; }
-
-.hero-body.hero-with-text {
   background-size: cover; }
 
 .button.is-medium {
@@ -10951,7 +10936,7 @@ button {
 p {
   margin-block-start: 1em;
   margin-block-end: 1em;
-  font-family: "Helvetica", "Arial", sans-serif; }
+  font-family: "Apercu", "Roboto", sans-serif; }
 
 p.no-margin-paragraph {
   margin-block-start: 0; }
@@ -10991,3 +10976,19 @@ span.icon {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 2rem; }
+
+@media (orientation: portrait) and (min-width: 600px) {
+  #main {
+    background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg"); } }
+
+@media (orientation: portrait) and (max-width: 600px) {
+  #main {
+    background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg"); } }
+
+@media (orientation: portrait) and (min-width: 600px) {
+  #main {
+    background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg);"); } }
+
+@media (orientation: portrait) and (max-width: 600px) {
+  #main {
+    background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg);"); } }
