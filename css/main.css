@@ -10979,16 +10979,16 @@ span.icon {
 
 @media (orientation: portrait) and (min-width: 600px) {
   #main {
-    background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg"); } }
+    background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash-slim.jpeg"); } }
 
 @media (orientation: portrait) and (max-width: 600px) {
   #main {
-    background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg"); } }
+    background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash-slim.jpeg"); } }
 
 @media (orientation: portrait) and (min-width: 600px) {
-  #main {
-    background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg);"); } }
+  #get-started {
+    background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash-slim.jpeg"); } }
 
 @media (orientation: portrait) and (max-width: 600px) {
-  #main {
-    background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg);"); } }
+  #get-started {
+    background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash-slim.jpeg"); } }

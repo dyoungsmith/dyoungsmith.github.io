@@ -130,26 +130,26 @@ span.icon {
     padding: 3rem 1.5rem 2rem;
 }
 
-@media (orientation: portrait) and (min-width: 600px){
-    #main{
-      background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg");
+@media (orientation: portrait) and (min-width: 600px) {
+    #main {
+      background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash-slim.jpeg");
     }
 }
   
-@media (orientation: portrait) and (max-width: 600px){
-    #main{
-      background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash.jpeg");
+@media (orientation: portrait) and (max-width: 600px) {
+    #main {
+      background-image: url("../images/greg-rakozy-0LU4vO5iFpM-unsplash-slim.jpeg");
     }
 }
 
-@media (orientation: portrait) and (min-width: 600px){
-    #main{
-      background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg);");
+@media (orientation: portrait) and (min-width: 600px) {
+    #get-started {
+      background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash-slim.jpeg");
     }
 }
   
-@media (orientation: portrait) and (max-width: 600px){
-    #main{
-      background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash.jpeg);");
+@media (orientation: portrait) and (max-width: 600px) {
+    #get-started {
+      background-image: url("../images/eneko-urunuela-I2YSmEUAgDY-unsplash-slim.jpeg");
     }
 }
