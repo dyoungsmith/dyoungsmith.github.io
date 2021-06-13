@@ -10959,10 +10959,10 @@ p.no-margin-paragraph {
 img {
   border-radius: 6px; }
 
-.animated-tile {
+.animated-enlarge {
   transition: transform 0.2s; }
 
-.animated-tile:hover {
+.animated-enlarge:hover {
   -webkit-transform: scale3d(1.05, 1.05, 1.05);
   transform: scale3d(1.05, 1.05, 1.05); }
 
