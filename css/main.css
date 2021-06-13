@@ -10959,6 +10959,13 @@ p.no-margin-paragraph {
 img {
   border-radius: 6px; }
 
+.animated-tile {
+  transition: transform 0.2s; }
+
+.animated-tile:hover {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05); }
+
 #rise2realize-logo img {
   max-height: 35px; }
 
